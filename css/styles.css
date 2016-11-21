@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+  font-family: 'Roboto', Arial, sans-serif;
+  background-image: url(../images/symphony.png);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title_1 {
+   padding-left:20px;
+   padding-right: 20px;
+}
+
+.logo{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.hist{
+  font-size: 1em;
+}
+
+ul.menu li{
+  display: inline;
+}
+
+ul.menu{
+  list-style: none;
+  border: 3px solid black;
+  border-bottom: 5px solid #bb0000;
+  padding: 10px;
+  background: #336699;
+  text-align: center;
+}
+
+ul.menu li a{
+  color: white;
+  text-decoration: none;
+  background: #225588;
+  border: 1px solid #225588;
+  border-bottom: 1px solid #114477;
+  margin: 0;
+  padding: 10px 14px 10px 14px;
+}
+
+ul.menu li a:hover{
+  border-left: 1px solid #114477;
+  border-right: 1px solid #114477;
+}
+
+ul.menu li a.selected{
+  background: #bb0000;
+  border: 1px #cc0000 solid;
+  border-bottom: 1px solid #bb0000;
+  border-left: 1px solid #770000;
+  padding: 10px 14px 10px 14px
+}
+
+ul.d_button li{
+  display: inline-block;
+}
+
+ul.d_button li a{
+  border: 0.5px solid #30C559;
+  text-decoration: none;
+  background: #30B555;
+  margin: 0;
+  padding: 10px 14px 10px 14px;
+  color: #3065B5;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+ul.d_button li a:hover{
+  border: 1px solid black;
+}
+
+.img_dev{
+  display: inline-block;
+  width: 300px;
+}
+
+.mx5_btn:hover + .mx5_dev{
+  background: url(images/mx5.jpg);
+}
+
+#content-wrapper {
+    clear: both;
+}
+
+.footer {
+  align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.url{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+}
+
+#news, .pro6_prew{
+  text-align: justify;
+  color: black;
+  font: arial;
+  font-size: 18px;
+}
+
+.pro6_img, .m3_img{
+  float: left;
+  margin-right: 10px;
+}
+
+.dalee{
+  color: red;
+  text-decoration: none;
+}
+
+.fishka{
+  border-radius: 5px;
+  background: #5856d6;
+  color: white;
+  width: 995px;
+  font-size: 21px;
+  padding: 10px 10px 10px 10px;
+ }
+
+.counters{
+  float: left;
+}
+
+.quick_url li{
+  display: inline;
+}
+
+.quick_url{
+    float: right;
+    margin: 0;
+}
+
+.new{
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.new p,
+.new a
+{
+  font-size: 18px;
+}
+
+.new h3 a{
+  font-size: 28px;
+}
+
+.new img{
+  border: 1px solid lightblue;
+  width: 300px;
+  height: 250px;
+}
+
+#content h2{
+  font-size: 32px;
+}
+
+.counters table{
+    margin: auto;
+}
